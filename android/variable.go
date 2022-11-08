@@ -476,6 +476,8 @@ type productVariables struct {
 	ProductManufacturer string   `json:",omitempty"`
 	ProductBrand        string   `json:",omitempty"`
 	BuildVersionTags    []string `json:",omitempty"`
+
+	IncludeTags []string `json:",omitempty"`
 }
 
 func boolPtr(v bool) *bool {
